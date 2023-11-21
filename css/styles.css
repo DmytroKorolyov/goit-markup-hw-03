@@ -11,6 +11,40 @@ body {
     color: #434455;
     background-color: var(--white-background);
 }
+h1, h2, h3, p {
+    margin: 0;
+}
+ul {
+    margin: 0;
+    padding-left: 0;
+}
+img {
+    display: block;
+}
+.container {
+    max-width: 1158px;
+        padding-left: 
+        padding-right: 
+        margin-left: 156px;
+        margin-right: 156px;
+}
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+
+
+
+
 .link {
     text-decoration: none;
 }
@@ -38,6 +72,10 @@ ul {
         line-height: 1.17;
         letter-spacing: 0.54px;
         text-transform: uppercase;
+        display: inline-flex;
+            height: 24px;
+            align-items: center;
+            flex-shrink: 0;
 }
 .navigation-item .link {
     color: var(--dark);
