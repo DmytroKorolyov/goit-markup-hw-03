@@ -412,6 +412,11 @@ color: var(--light);
         line-height: 1.2;
         letter-spacing: 0.02em;
 }
+
+.team-card-information {
+    padding: 32px 0;
+}
+
 .team-card .team-card-text {
     color: var(--text);
     font-family: Roboto;
@@ -421,4 +426,5 @@ color: var(--light);
         line-height: 1.5;
         letter-spacing: 0.02em;
 }
+
 
