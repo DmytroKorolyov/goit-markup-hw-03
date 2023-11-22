@@ -5,6 +5,7 @@
     --white-background: #FFFFFF;
     --text: #434455;
     --light: #F4F4FD;
+    --cornflower: #E7E9FC;
        }
 body {
     font-family: "Roboto", sans-serif;
@@ -190,8 +191,14 @@ border-bottom: 1px solid #e7e9fc;
     padding-top: 96px;
         padding-bottom: 120px;
 }
+.list-buttons-portfolio {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    margin-bottom: 72px;
+}
 
-.list .filter-button {
+.filter-button {
     color: #4D5AE5;
     font-family: Roboto, sans-serif;
         font-size: 16px;
@@ -201,9 +208,12 @@ border-bottom: 1px solid #e7e9fc;
         letter-spacing: 0.64px;
         cursor: pointer;
         background-color: var(--light);
+        padding: 12px 24px;
+        border: 1px solid var(--cornflower);
+        border-radius: 4px;
 }
-.list .filter-button:hover,
-.list .filter-button:focus {
+.filter-button:hover,
+.filter-button:focus {
     color: #FFFFFF;
     font-family: Roboto, sans-serif;
     font-size: 16px;
@@ -213,6 +223,7 @@ border-bottom: 1px solid #e7e9fc;
     letter-spacing: 0.64px;
     cursor: pointer;
     background-color: #404BBF;
+    border: 1px solid transparent
 }
 
 
