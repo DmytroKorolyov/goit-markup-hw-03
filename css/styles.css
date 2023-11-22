@@ -27,6 +27,8 @@ img {
         padding-right: 15px;
         margin-left: 156px;
         margin-right: 156px;
+        display: flex;
+        margin: 0 auto;
 }
 .visually-hidden {
     position: absolute;
@@ -52,6 +54,11 @@ ul {
     list-style-type: none;
 }
  
+.header {
+border-bottom: 1px solid #e7e9fc;
+}
+
+
 .logo-part-web {
     color: var(--dark);
     font-family: Raleway, sans-serif;
@@ -62,7 +69,13 @@ ul {
         letter-spacing: 0.54px;
         text-transform: uppercase;
 }
-.navigation .link {
+
+.navigation {
+    display: flex;
+    align-items: center;
+}
+.logo {
+    margin-right: 76px;
     color: var(--primary-brand);
     color: var(--IRIS, #4D5AE5);
         font-family: Raleway, sans-serif;
@@ -76,8 +89,28 @@ ul {
             height: 24px;
             align-items: center;
             flex-shrink: 0;
-            padding: 24px 76px 24px 0;
 }
+.menu-list {
+    display: flex;
+    gap: 40px;
+    padding: 24px 0;
+}
+/* .navigation .link {
+    color: var(--primary-brand);
+    color: var(--IRIS, #4D5AE5);
+        font-family: Raleway, sans-serif;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: 1.17;
+        letter-spacing: 0.54px;
+        text-transform: uppercase;
+        display: inline-flex;
+            height: 24px;
+            align-items: center;
+            flex-shrink: 0;
+            
+} */
 
 .navigation-link {
     color: var(--dark);
@@ -88,12 +121,12 @@ ul {
         line-height: 1.5;
         letter-spacing: 0.32px;
 }
-.navigation-item {
+/* .navigation-item {
     padding: 24px 332px 24px 0;
     display: inline-flex;
         align-items: flex-start;
         gap: 40px;
-}
+} */
 
 
 .navigation .link:hover,
@@ -117,6 +150,14 @@ ul {
 }
 .adress {
     font-style: normal;
+
+.adress-list {
+    display: flex;
+    gap: 40px;
+}
+
+
+
 }
 .adress .link {
     color: var(--text);
