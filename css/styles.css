@@ -11,7 +11,7 @@ body {
     color: #434455;
     background-color: var(--white-background);
 }
-h1, h2, h3, p {
+h1,h2,h3,p {
     margin: 0;
 }
 ul {
@@ -23,8 +23,8 @@ img {
 }
 .container {
     max-width: 1158px;
-        padding-left: 
-        padding-right: 
+        padding-left: 15px;
+        padding-right: 15px;
         margin-left: 156px;
         margin-right: 156px;
 }
