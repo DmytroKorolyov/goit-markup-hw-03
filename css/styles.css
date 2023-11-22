@@ -184,6 +184,13 @@ border-bottom: 1px solid #e7e9fc;
 
 }
 
+/* PORTFOLIO */
+
+.main-section-portfolio {
+    padding-top: 96px;
+        padding-bottom: 120px;
+}
+
 .list .filter-button {
     color: #4D5AE5;
     font-family: Roboto, sans-serif;
