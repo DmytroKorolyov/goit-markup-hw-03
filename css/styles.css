@@ -231,8 +231,21 @@ border-bottom: 1px solid #e7e9fc;
 }
 .footer {
     background-color: #2E2F42;
+    padding: 100px 0;
     }
-.footer .footer-text {
+.footer-link {
+    color: var(--primary-brand);
+        font-family: Raleway, sans-serif;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: 1.17;
+        letter-spacing: 0.54px;
+        text-transform: uppercase;
+    display: inline-block;
+    margin-bottom: 16px;
+}
+.footer-text {
     color: #F4F4FD;
         font-family: Roboto;
         font-size: 16px;
@@ -240,6 +253,7 @@ border-bottom: 1px solid #e7e9fc;
         font-weight: 400;
         line-height: 24px;
         letter-spacing: 0.32px;
+        max-width: 264px;
 }
 .footer .footer-logo-part {
 color: var(--light);
@@ -251,7 +265,7 @@ color: var(--light);
     letter-spacing: 0.54px;
     text-transform: uppercase;
 }
-.footer .link {
+/* .footer .link {
     color: var(--primary-brand);
         color: var(--IRIS, #4D5AE5);
         font-family: Raleway, sans-serif;
@@ -261,7 +275,7 @@ color: var(--light);
         line-height: 1.17;
         letter-spacing: 0.54px;
         text-transform: uppercase;
-}
+} */
 .section-one {
     background-color: var(--dark);
     width: 1440px;
@@ -403,7 +417,7 @@ color: var(--light);
     width: calc((100% - 72px) / 4);
     border-radius: 0px 0px 4px 4px;
 }
-.team-card .team-card-title {
+.team-card-title {
     color: var(--dark);
     font-family: Roboto;
         font-size: 20px;
@@ -411,13 +425,15 @@ color: var(--light);
         font-weight: 500;
         line-height: 1.2;
         letter-spacing: 0.02em;
+        text-align: center;
+        margin-bottom: 8px;
 }
 
 .team-card-information {
     padding: 32px 0;
 }
 
-.team-card .team-card-text {
+.team-card-text {
     color: var(--text);
     font-family: Roboto;
         font-size: 16px;
@@ -425,6 +441,7 @@ color: var(--light);
         font-weight: 400;
         line-height: 1.5;
         letter-spacing: 0.02em;
+        text-align: center;
 }
 
 
