@@ -150,6 +150,10 @@ border-bottom: 1px solid #e7e9fc;
         line-height: 24px;
         letter-spacing: 0.32px;
 }
+
+.page-header-container {
+    display: flex;
+}
 .adress {
     font-style: normal;
 }
@@ -157,6 +161,11 @@ border-bottom: 1px solid #e7e9fc;
 .adress-list {
         display: flex;
             gap: 40px;
+}
+
+.adress-list-item {
+    display: block;
+    margin: 24px 337px 24px 332;
 }
 
 
@@ -315,7 +324,7 @@ color: var(--light);
     width: 1440px;
         height: 600px;
         flex-shrink: 0;
-        padding: 188px 0;
+        /* padding: 188px 0; */
         }
 .section-one-title {
     color: var(--white-background);
@@ -327,7 +336,8 @@ color: var(--light);
         letter-spacing: 1.12px;
         text-align: center;
         max-width: 496px;
-        margin: 178px 472px 48px 472px;
+        height: 120px;
+        margin: 188px 472px 48px 472px;
         }
 .section-one-button {
     color: var(--white-background);
@@ -339,12 +349,12 @@ color: var(--light);
         letter-spacing: 0.64px;
         background-color: #4D5AE5;
         cursor: pointer;
-        display: inline-flex;
+        display: flex;
             padding: 16px 32px;
             align-items: flex-start;
             gap: 10px;
             text-align: center;
-            display: block;
+            /* display: block; */
             min-width: 169px;
             height: 56px;
             border: none;
