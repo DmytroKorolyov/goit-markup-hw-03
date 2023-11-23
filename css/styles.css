@@ -255,6 +255,7 @@ border-bottom: 1px solid #e7e9fc;
         font-weight: 500;
         line-height: 1.2;
         letter-spacing: 0.02em;
+        margin-bottom: 8px;
 }
 .list .card-text {
     color: var(--text);
